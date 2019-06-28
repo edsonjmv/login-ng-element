@@ -3,9 +3,9 @@ import * as OktaAuth from '@okta/okta-auth-js';
 
 @Component({
   // tslint:disable-next-line:component-selector
-  selector: 'login-element',
+  selector: 'login-component',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'],
+  styleUrls: ['./app.component.scss'],
   encapsulation: ViewEncapsulation.Native
 })
 export class AppComponent implements OnInit {
